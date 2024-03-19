@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+.heading{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    color: red;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    align-content: center;
+
+}
+input
+{
+    min-width: 400px;   
+    height: 25px;
+    border-radius: 4px;
+}
+button{
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.cards{
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    
+}
+.card{
+    margin: 4px;
+    height: 200px;
+    width: 150px;
+    background-color: chartreuse;
+    border-radius: 4px;
+    
+}
+.card-1{
+
+  background-image: url('./Imges/IMG_20231211_090402.jpg');
+    
+}
